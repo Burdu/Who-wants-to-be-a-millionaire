@@ -2,20 +2,20 @@
 
 A command-line quiz game written in C with advanced features including difficulty levels, error handling, and comprehensive history tracking. Perfect for demonstrating C programming skills including file I/O, data structures, and memory management.
 
-## ✨ Features
+## Features
 
-- 📝 **20 Multiple-Choice Questions**: Diverse topics including geography, science, history, math, and art
-- 🎯 **Progressive Scoring**: Correct answers earn 1 point each
-- 💡 **50/50 Help System**: Use 'H' during gameplay for a hint (scores 0.5 points if correct)
-- 📊 **Comprehensive History**: All player scores saved with timestamps and question counts
-- 🏆 **Leaderboard**: View top 5 players with rankings and statistics
-- 🎨 **Colorful UI**: Terminal colors for enhanced visual experience
-- ⚡ **Game Over System**: Wrong answer ends the game - keeps it challenging!
-- 🛡️ **Robust Error Handling**: Validates all user inputs
-- ⏰ **Timestamps**: Track when scores were achieved
-- 📈 **Statistics**: See how many questions were answered correctly
+-  **20 Multiple-Choice Questions**: Diverse topics including geography, science, history, math, and art
+-  **Progressive Scoring**: Correct answers earn 1 point each
+-  **50/50 Help System**: Use 'H' during gameplay for a hint (scores 0.5 points if correct)
+-  **Comprehensive History**: All player scores saved with timestamps and question counts
+-  **Leaderboard**: View top 5 players with rankings and statistics
+-  **Colorful UI**: Terminal colors for enhanced visual experience
+-  **Game Over System**: Wrong answer ends the game - keeps it challenging!
+-  **Robust Error Handling**: Validates all user inputs
+-  **Timestamps**: Track when scores were achieved
+-  **Statistics**: See how many questions were answered correctly
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Data Structures
 - `Question`: Stores question text, 4 options, correct answer, and difficulty level
@@ -30,7 +30,7 @@ A command-line quiz game written in C with advanced features including difficult
 - `getTimestamp()`: Generates current timestamp
 - `compareScores()`: Custom comparator for leaderboard sorting
 
-## 📁 Files
+##  Files
 
 ```
 ├── main.c           # Source code (enhanced with comments)
@@ -55,13 +55,13 @@ cl main.c
 - [OnlineGDB](https://www.onlinegdb.com/online_c_compiler)
 - [Replit](https://replit.com/languages/c)
 
-## 🚀 Running the Game
+## Running the Game
 
 ```bash
 quiz.exe
 ```
 
-## 🎯 How to Play
+## How to Play
 
 1. **Launch**: Run the compiled program
 2. **Select**: Choose "1. Play Game" from the main menu
@@ -72,7 +72,7 @@ quiz.exe
 5. **Stay Correct**: Answer correctly to continue
 6. **Survive**: Get a wrong answer = Game Over!
 
-## 📋 Menu Options
+## Menu Options
 
 1. **Play Game** - Start a new quiz session
 2. **Game History** - View all past scores with timestamps
@@ -80,7 +80,7 @@ quiz.exe
 4. **Help** - Display detailed game instructions
 5. **Exit** - Quit the application
 
-## 💾 History Format
+## History Format
 
 Each entry in `history.txt` contains:
 ```
@@ -95,7 +95,7 @@ Bob 20.0 20 2024-01-15_15-45
 
 Note: Timestamps are displayed nicely in the UI (spaces and colons), but stored with underscores and hyphens for parsing compatibility.
 
-## ➕ Adding More Questions
+## Adding More Questions
 
 Edit `questions.txt` with the following format:
 ```
@@ -119,13 +119,13 @@ A
 
 Each question requires exactly 6 lines. The last line is the correct answer (A, B, C, or D).
 
-## 🛠️ Requirements
+## Requirements
 
 - **Compiler**: GCC, Clang, or MSVC
 - **Platform**: Windows, Linux, or macOS
 - **Terminal**: Command Prompt, PowerShell, or Terminal
 
-## 🎨 Code Quality Highlights
+## Code Quality Highlights
 
 ### What Makes This Portfolio-Worthy:
 
@@ -138,7 +138,7 @@ Each question requires exactly 6 lines. The last line is the correct answer (A, 
 ✅ **Data Persistence**: File-based storage with timestamp tracking  
 ✅ **Scalability**: Easy to add more questions or features  
 
-## 📊 Sample Gameplay
+## Sample Gameplay
 
 ```
 === Main Menu ===
@@ -176,22 +176,4 @@ Your answer (A/B/C/D, or H for 50/50 help): A
 - **User Interface**: Menu-driven CLI application
 - **Memory Management**: Static allocation, buffer management
 
-## 🚀 Future Enhancements
 
-Potential features to add:
-- Difficulty levels per question
-- Category selection
-- Timer mode
-- Multiple lives
-- Export results to CSV
-- Online multiplayer support
-
-## 📝 License
-
-This project is open source and available for educational purposes.
-
----
-
-**Built with ❤️ in C**
-
-Enjoy playing! 🎮
